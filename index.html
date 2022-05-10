@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Landing page</title>
+</head>
+<body>
+    
+    <header id="header" class="header">
+        <img id="header-img" class="header__img" src="assets/imgs/product-landing-page-logo.png" alt="imagen del logo">
+        <nav id="nav-bar" class="header__navbar">
+            <ul>
+                <!-- Cuando de clic debo ser llevado a la sección correspondiente -->
+                <li class="nav-link"><a href="#">Features</a></li>
+                <li class="nav-link"><a href="#">How It Works</a></li>
+                <li class="nav-link"><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+
+        <h1>Handcrafted, home-made masterpieces</h1>
+
+        <form id="form" class="form main__form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" placeholder="Enter your email address" id="email" class="form__email" required>
+            <input type="submit" value="GET STARTED" id="submit" class="form__submit">
+        </form>
+
+        <section class="qualities main__qualities">
+            <div class="qualities_texts">
+                
+                <div class="qualities__texts-image">
+                    <img src="#" alt="Logo del fuego">
+                </div>
+                
+                <div class="qualities__texts-info">
+                    <h2>Premium Materials</h2>
+                    <p>
+                        Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                    </p>
+                </div>
+
+            </div>
+            <div class="qualities_texts">
+                <img src="#" alt="Logo de un camion">
+                <h2>Fast Shipping</h2>
+                <p>
+                    We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                </p>
+            </div>
+            <div class="qualities_texts">
+                <img src="#" alt="Logo de una pila">
+                <h2>Quality Assurance</h2>
+                <p>
+                    For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                </p>
+            </div>
+        </section>
+
+        <section class="video main__video">
+            <iframe id="video" height="300px" width="500" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section class="cards main__cards">
+            <!-- Saca una card primero y luego las clonas o replicas -->
+            <div class="cards__price">
+                <h3>TENOR TROMBONE</h3>
+                <p>$600</p>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+
+            <div class="cards__price">
+                <h3>BASS TROMBONE</h3>
+                <p>$600</p>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+
+            <div class="cards__price">
+                <h3>VALVE TROMBONE</h3>
+                <p>$600</p>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Contact</li>
+        </ul>
+        <p>Copyright 2016, Original Trombones</p>
+    </footer>
+</body>
+</html>
