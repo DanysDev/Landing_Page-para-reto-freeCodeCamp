@@ -5,15 +5,13 @@
 
 
 ## Tech
-
-    Esta pagina esta desarrollada con HTML5, CSS3  
+ Esta pagina esta desarrollada con HTML5, CSS3  
 
 ## Pages
    https://danysdev.github.io/Landing_Page-para-reto-freeCodeCamp/
 
 ## Uses
-
-    Sientase libre de darle el uso que desee a este proyecto.
+ Sientase libre de darle el uso que desee a este proyecto.
 
 ## License
 
