@@ -2,7 +2,7 @@
     --light_color: #e7e6e1;
     --celeste: #f7f6e7;
     --orange_mate: #f2a154;
-    --orange_hover: #e4974f;
+    --orange_hover: #ffab5c;
     --gray_dark: #314e52;
 }
 
@@ -32,7 +32,6 @@ body {
 }
 
 .header__img {
-    margin-left: 200px;
     height: 3rem;
     width: 18rem;
 }

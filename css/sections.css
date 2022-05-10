@@ -1,0 +1,121 @@
+
+.qualities {
+    margin: 64px auto;
+    width: 900px;
+}
+
+.uno {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.un {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.un img {
+    width: 80px;
+    height: 80px;
+}
+
+.text {
+    padding: 30px;
+    color: var(--gray_dark);
+    text-align: justify;
+}
+
+.text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.text p {
+    font-size: 1rem;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* Tarjetas de Precios */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards__price {
+    background-color: var(--celeste);
+    border: 0.5px solid var(--gray_dark);
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+
+.cards__price:hover {
+    box-shadow: 1px 1px 5px rgba(0,0,0, .20),
+    -1px -1px 5px rgba(0,0,0, .20);
+}
+
+.cards__price h3 {
+    background-color: rgb(209, 209, 209);
+    padding: .8rem 0;
+    font-size: 1rem;
+}
+
+.cards__price p {
+    margin-top: 24px;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.cards__price ul {
+    margin-top: 24px;
+    font-size: 1rem;
+}
+
+.cards__price li {
+    margin-bottom: 16px;
+    list-style: none;
+    color: var(--gray_dark);
+}
+
+.btn_select {
+    margin-top: 30px;
+    padding: 0.3rem 2.5rem;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1rem;
+    color: var(--gray_dark);
+    width: 1024px;
+    height: 5rem;
+    background-color: rgb(209, 209, 209);
+    margin: 64px auto 0 auto;
+    padding-right: 30px;
+}
+
+.footer ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    font-weight: 800;
+}
