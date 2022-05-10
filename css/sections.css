@@ -45,6 +45,11 @@
     margin-bottom: 100px;
 }
 
+#video {
+    height: 300px;
+    width: 500px;
+}
+
 /* Tarjetas de Precios */
 
 .cards {
@@ -118,4 +123,5 @@
     gap: 24px;
     list-style: none;
     font-weight: 800;
+    margin-bottom: 8px;
 }

@@ -15,7 +15,6 @@
 body {
     font-size: 62.5%;
     font-family: monospace sans-serif;
-    /* min-width: 1024px; */
     background-color: var(--light_color);
 }
 
@@ -24,14 +23,16 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 6rem;
-    position: static;
+    background-color: rgb(230, 230, 230);
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
+    box-shadow: 0px .2px 1px rgba(0,0,0, .20);
 }
 
-.header__img {
+.header__img img{
     height: 3rem;
     width: 18rem;
 }
@@ -57,8 +58,9 @@ body {
 
 .main h1 {
     text-align: center;
-    padding-top: 32px;
-    font-size: 1.6rem;
+    margin-top: 150px;
+    font-size: 2.2rem;
+    color: var(--gray_dark);
 }
 
 .form {

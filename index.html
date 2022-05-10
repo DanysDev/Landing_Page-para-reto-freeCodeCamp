@@ -6,20 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Landing page</title>
 </head>
 <body>
     
     <header id="header" class="header">
-        <img id="header-img" class="header__img" src="assets/imgs/product-landing-page-logo.png" alt="imagen del logo">
-        <nav id="nav-bar" class="header__navbar">
-            <ul class="header__navbar-links">
-                <!-- Cuando de clic debo ser llevado a la sección correspondiente -->
-                <li class="nav-link"><a href="#">Features</a></li>
-                <li class="nav-link"><a href="#">How It Works</a></li>
-                <li class="nav-link"><a href="#">Pricing</a></li>
-            </ul>
-        </nav>
+        
+        <div class="header__img">
+            <img id="header-img" src="assets/imgs/product-landing-page-logo.png" alt="imagen del logo">
+        </div>
+
+        <div class="header__navbar">
+            <nav id="nav-bar">
+                <ul class="header__navbar-links">
+                    <!-- Cuando de clic debo ser llevado a la sección correspondiente -->
+                    <li class="nav-link"><a href="#">Features</a></li>
+                    <li class="nav-link"><a href="#">How It Works</a></li>
+                    <li class="nav-link"><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
     <main class="main">
 
@@ -67,7 +75,7 @@
         </section>
 
         <section class="video main__video">
-            <iframe id="video" height="300px" width="500" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
         </section>
 
         <section class="cards main__cards">
