@@ -8,7 +8,8 @@
 
     Esta pagina esta desarrollada con HTML5, CSS3  
 
-
+## Pages
+    !(https://danysdev.github.io/Landing_Page-para-reto-freeCodeCamp/)
 
 ## Uses
 
