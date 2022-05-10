@@ -1,7 +1,7 @@
 # Landing_Page
  Landing page sencilla para reto de freeCodeCamp
 
-![captura de pantalla de la pagina]()
+![captura de pantalla de la pagina](https://github.com/DanysDev/Landing_Page-para-reto-freeCodeCamp/blob/main/assets/capturas/Landing%20page.png)
 
 
 ## Tech
